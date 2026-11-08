@@ -1,5 +1,6 @@
 from classes.product_class import Product
 from classes.inventory_class import Inventory
+
 def main():
     shop = Inventory()
     shop.add(Product("Pen", 5, 10))
